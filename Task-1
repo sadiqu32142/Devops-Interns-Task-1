@@ -1,0 +1,49 @@
+# My Node.js CI/CD Project
+
+A simple Node.js web application with a CI/CD pipeline set up using GitHub Actions and Docker. This project demonstrates how to automate the build, test, and deployment process.
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to get a local copy of the project up and running on your machine.
+
+### Prerequisites
+
+You'll need the following software installed:
+
+* *Node.js*: [https://nodejs.org/](https://nodejs.org/)
+* *Docker Desktop*: [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
+* *Git*: [https://git-scm.com/](https://git-scm.com/)
+
+### Installation
+
+1.  *Clone the repository:*
+    bash
+    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+    cd your-repository-name
+    
+
+2.  *Install dependencies:*
+    bash
+    npm install
+    
+
+3.  *Run the application locally:*
+    bash
+    npm start
+    
+    The application should now be running on http://localhost:3000.
+
+---
+
+## 🐳 Docker
+
+This project is containerized using Docker to ensure a consistent environment.
+
+### Build the Docker Image
+
+To build the Docker image locally, run the following command from the root of the project:
+
+```bash
+docker build -t my-node-app .
